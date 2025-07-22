@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy - Your Premium Online Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>ShopEasy</h1>
+            <p>Premium Shopping Experience</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#deals">Hot Deals</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <div class="search-box">
+                <input type="text" placeholder="Search products...">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="user-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Premium Products, Exceptional Value</h2>
+                <p>Discover our curated collection of high-quality products at unbeatable prices</p>
+                <button class="shop-now">Explore Collection</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <h3>10,000+</h3>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="stat-item">
+                    <h3>500+</h3>
+                    <p>Premium Products</p>
+                </div>
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p>Customer Support</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories">
+            <h2 class="section-title">Shop by Category</h2>
+            <div class="category-grid">
+                <div class="category-card" style="background-image: url('https://images.unsplash.com/photo-1554412933-514a83d2f3c8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')">
+                    <div class="category-overlay">
+                        <h3>Electronics</h3>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+                <div class="category-card" style="background-image: url('https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')">
+                    <div class="category-overlay">
+                        <h3>Fashion</h3>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+                <div class="category-card" style="background-image: url('https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')">
+                    <div class="category-overlay">
+                        <h3>Home & Living</h3>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+                <div class="category-card" style="background-image: url('https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')">
+                    <div class="category-overlay">
+                        <h3>Beauty</h3>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <h2 class="section-title">Featured Products</h2>
+            <p class="section-subtitle">Our most popular items this season</p>
+            <div class="product-grid">
+                <!-- Products will be added dynamically with JS -->
+            </div>
+        </section>
+
+        <section id="deals" class="deals">
+            <div class="deal-content">
+                <h2>Summer Sale</h2>
+                <h3>Up to 50% Off</h3>
+                <p>Limited time offer on selected items</p>
+                <button class="shop-now">Shop Deals</button>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The quality of products exceeded my expectations. Fast shipping too!"</p>
+                    <div class="customer">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah J.">
+                        <span>Sarah J.</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Excellent customer service. They helped me find exactly what I needed."</p>
+                    <div class="customer">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Michael T.">
+                        <span>Michael T.</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"Great prices and frequent sales. My go-to online store now!"</p>
+                    <div class="customer">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Priya K.">
+                        <span>Priya K.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2 class="section-title">Our Story</h2>
+                <p>Founded in 2015, ShopEasy began as a small boutique online store with a passion for bringing quality products to customers worldwide. Today, we've grown into a premier e-commerce destination with thousands of satisfied customers.</p>
+                <p>Our mission is simple: provide exceptional products at fair prices, backed by outstanding customer service. We carefully curate our collection to ensure every item meets our high standards.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-globe"></i>
+                        <h3>50+ Countries</h3>
+                        <p>Worldwide shipping</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-undo"></i>
+                        <h3>30-Day Returns</h3>
+                        <p>Hassle-free policy</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Secure Payments</h3>
+                        <p>100% protected</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Our team">
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for exclusive deals and new arrivals</p>
+            <form>
+                <input type="email" placeholder="Your email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ShopEasy</h3>
+                <p>Premium Shopping Experience</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#deals">Hot Deals</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> support@shopeasy.com</p>
+                <p><i class="fas fa-phone"></i> +1 (800) 123-4567</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Commerce St, San Francisco, CA</p>
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 ShopEasy. All rights reserved.</p>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be added dynamically -->
+        </div>
+        <div class="cart-total">
+            <p>Total: <span>$0.00</span></p>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+    <div class="overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
