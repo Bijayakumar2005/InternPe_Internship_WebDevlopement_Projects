@@ -6,7 +6,7 @@
 **Domain:** Web Development  
 **Designation:** Intern  
 **Certificate ID:** IPI#55299  
-**Certificate:** ![Internship Certificate](./BIJAYA%20KUMAR%20ROUT_Internpe.png)
+**Certificate:** ## [![Internship Certificate](./internpe_certificate.png)](./internpe_certificate.png)
 
 ---
 
@@ -61,7 +61,8 @@ To build visually appealing and functional web applications from scratch using m
 ## 📜 Certificate
 
 You can view my official certificate below:  
-📄 ![Internship Certificate](./BIJAYA%20KUMAR%20ROUT_Internpe.png)
+
+[![Internship Certificate](./internpe_certificate.png)](./internpe_certificate.png)
 
 ---
 
