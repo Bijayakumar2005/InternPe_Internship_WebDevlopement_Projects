@@ -6,7 +6,7 @@
 **Domain:** Web Development  
 **Designation:** Intern  
 **Certificate ID:** IPI#55299  
-**Certificate:** ## [![Internship Certificate](./internpe_certificate.png)](./internpe_certificate.png)
+**Certificate:** [Click to view full certificate](https://github.com/Bijayakumar2005/InternPe_Internship_WebDevlopement_Projects/blob/main/BIJAYA%20KUMAR%20ROUT_Internpe.png)
 
 ---
 
@@ -60,13 +60,12 @@ To build visually appealing and functional web applications from scratch using m
 
 ## 📜 Certificate
 
-You can view my official certificate below:  
-
-[![Internship Certificate](./internpe_certificate.png)](./internpe_certificate.png)
+[![Internship Certificate](https://github.com/Bijayakumar2005/InternPe_Internship_WebDevlopement_Projects/blob/main/BIJAYA%20KUMAR%20ROUT_Internpe.png?raw=true)](https://github.com/Bijayakumar2005/InternPe_Internship_WebDevlopement_Projects/blob/main/BIJAYA%20KUMAR%20ROUT_Internpe.png)
 
 ---
 
 ## 📬 Contact
 
-- 📧 Email: bijayakumarrout2005@gmail.com   
-- 🔗 LinkedIn: *https://www.linkedin.com/in/bijaya-kumar-rout-369453287/*  
+- 📧 Email: bijayakumarrout2005@gmail.com  
+- 🌐 Portfolio: *[Add if available]*  
+- 🔗 LinkedIn: *[Add if available]*  
